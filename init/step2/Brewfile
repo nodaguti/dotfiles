@@ -1,0 +1,79 @@
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+brew "mas"
+
+brew "coreutils"
+brew "terminal-notifier"
+brew "hub"
+brew "imagemagick"
+brew "ffmpeg"
+brew "python3"
+brew "cloc"
+brew "heroku/brew/heroku"
+brew "dnscrypt-proxy"
+brew "wine"
+brew "winetricks"
+
+# Browsers
+cask "firefox"
+cask "firefox-developer-edition"
+cask "google-chrome"
+cask "google-chrome-canary"
+cask "safari-technology-preview"
+cask "vivaldi"
+
+# Office Utilities
+cask "mailspring"
+cask "slack"
+cask "dropbox"
+cask "box-drive"
+cask "mendeley"
+
+# Programming
+cask "iterm2"
+cask "visual-studio-code"
+cask "docker"
+cask "virtualbox"
+cask "licecap"
+cask "xquartz"
+
+# Graphics
+cask "sketch"
+cask "gimp"
+
+# Utilities
+cask "accessmenubarapps"
+cask "bitbar"
+cask "bettertouchtool"
+cask "karabiner-elements"
+cask "yujitach-menumeters"
+cask "clipy"
+cask "grandperspective"
+cask "onyx"
+cask "the-unarchiver"
+
+# QuickLook plugins
+cask "qlimagesize"
+cask "emin-webpquicklook"
+cask "quicklook-csv"
+cask "quicklook-json"
+cask "qlstephen"
+cask "qlcolorcode"
+cask "qlmarkdown"
+cask "betterzip"
+
+# Entertainment
+cask "vlc"
+cask "amazon-music"
+cask "bathyscaphe"
+cask "kindle"
+cask "blu-ray-player"
+
+# Applications in AppStore
+mas "LINE", id: 539883307
+mas "Battery Health 2", id: 1120214373
+mas "Letterspace", id: 950145466
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Keynote", id: 409183694
+mas "Pocket", id: 568494494
