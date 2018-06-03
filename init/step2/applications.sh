@@ -39,6 +39,16 @@ brew cask install grandperspective
 brew cask install onyx
 brew cask install the-unarchiver
 
+# QuickLook plugins
+brew cask install qlimagesize
+brew cask install emin-webpquicklook
+brew cask install quicklook-csv
+brew cask install quicklook-json
+brew cask install qlstephen
+brew cask install qlcolorcode
+brew cask install qlmarkdown
+brew cask install betterzip
+
 # Entertainment
 brew cask install vlc
 brew cask install amazon-music
