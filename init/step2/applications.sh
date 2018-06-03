@@ -1,8 +1,12 @@
 brew tap homebrew/cask
+brew tap homebrew/cask-versions
 
 # Browsers
 brew cask install firefox
+brew cask install firefox-developer-edition
 brew cask install google-chrome
+brew cask install google-chrome-canary
+brew cask install safari-technology-preview
 brew cask install vivaldi
 
 # Office Utilities
@@ -42,7 +46,7 @@ brew cask install bathyscaphe
 brew cask install kindle
 brew cask install blu-ray-player
 
-
+# Applications in AppStore
 brew install mas
 mas install 539883307  # LINE
 mas install 1120214373 # Battery Health 2
