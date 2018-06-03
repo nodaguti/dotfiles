@@ -15,4 +15,4 @@ git clone https://github.com/nodaguti/dotfiles.git dotfiles
 cd dotfiles
 
 # Run!
-./scripts/step1/init.sh
+./init/step1/init.sh
