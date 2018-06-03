@@ -15,6 +15,10 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
+# Language-specific paths
+source "$HOME/workspaces/dotfiles/zsh/go.sh"
+source "$HOME/workspaces/dotfiles/zsh/java.sh"
+
 
 ###
 # Options
@@ -44,8 +48,6 @@ source "$HOME/workspaces/dotfiles/zsh/autocomplete.zsh"
 source "$HOME/workspaces/dotfiles/zsh/zgen.zsh"
 source "$HOME/workspaces/dotfiles/zsh/ssh.zsh"
 source "$HOME/workspaces/dotfiles/zsh/auto_ls.zsh"
-
-source "$HOME/workspaces/dotfiles/zsh/go.sh"
 
 
 ###

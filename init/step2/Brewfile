@@ -36,6 +36,7 @@ cask "docker"
 cask "virtualbox"
 cask "licecap"
 cask "xquartz"
+cask "java"
 
 # Graphics
 cask "sketch"
