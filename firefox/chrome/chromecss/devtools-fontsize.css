@@ -1,0 +1,24 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+@-moz-document regexp("chrome://browser/content/devtools/.*"){
+    * {
+        font-size: 13px !important;
+        line-height: 1.5 !important;
+    }
+}
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document regexp(".*(chrome://browser/content/devtools/codemirror/mozilla.css).*"){
+    .CodeMirror{
+        font-size: 1.5em !important;
+        line-height: 1.8 !important;
+    }
+}
+
+@-moz-document regexp("chrome://browser/content/devtools/.*"){
+    * {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+    }
+}

@@ -1,0 +1,16 @@
+@charset 'utf-8';
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#context_newTab + menuseparator,
+#context_reloadTab,
+#context_reloadTab + menuseparator,
+#context_reloadAllTabs,
+#context_closeOtherTabs,
+#context_bookmarkAllTabs,
+#context_closeTab,
+#context_tabViewMenu,
+#context_openTabInWindow,
+#context_undoCloseTab,
+[id^="multipletab-context-"],
+[id$="-tabbrowser-content"]
+{display: none !important;}

@@ -1,0 +1,13 @@
+@charset 'utf-8';
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#foxage2chWindow > #searchToolbar,
+#foxage2chNotifbox #viewSplitter,
+#foxage2chNotifbox sidebarheader,
+#foxage2chWindow notification{
+   display: none !important;
+}
+
+#foxage2chNotifbox #mainTree{
+   border-bottom: 1px #aaa solid !important;
+}

@@ -1,0 +1,74 @@
+@charset 'utf-8';
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#context-metadata,              /*プロパティ*/
+
+#context-back,                  /*戻る*/
+#context-forward,               /*進む*/
+#context-reload,                /*更新*/
+#context-stop,                  /*中止*/
+#context-sep-stop,              /*中止の下のセパレータ*/
+
+#context-navigation,
+#context-sep-navigation,
+
+#context-bookmarkpage,          /*このページをブックマーク*/
+#context-savepage,              /*名前を付けてページを保存*/
+#context-sendpage,              /*ページのURLをメールで送信*/
+
+#context-sep-viewbgimage,       /*背景画像だけを表示の上のセパレータ*/
+#context-viewbgimage,           /*背景画像だけを表示*/
+
+#context-openlinkincurrent,     /* Open Link */
+#context-openlink,              /*リンクを新しいウィンドウで開く*/
+#context-openlinkprivate,       /* Open Link in New Private Window */
+#context-sep-open,              /*リンクを〜開くの下のセパレータ*/
+
+#context-bookmarklink,          /* Bookmark This Link */
+#context-sharelink,             /* Share This Link */
+#context-savelink,              /*名前を付けてリンクを保存*/
+#context-sendlink,              /*リンクのURLをメールで送信*/
+
+
+#context-copyimage-contents,    /*画像をコピー*/
+#context-sep-copyimage,         /*画像のURLをコピーの下のセパレータ*/
+
+#context-saveimage,             /*名前を付けて画像を保存*/
+#context-sendimage,             /*画像をメールで送信*/
+#context-shareimage,
+#context-savevideo,
+#context-sharevideo,
+#context-sendvideo,
+#context-saveaudio,
+#context-shareaudio,
+#context-sendaudio,
+#context-setDesktopBackground,  /*デスクトップの背景に設定*/
+#context-blockimage,            /*画像をブロック*/
+
+
+#context-undo,                  /*元に戻す*/
+#context-sep-undo,              /*元に戻すの下のセパレータ*/
+#context-cut,                   /*カット*/
+#context-copy,                  /*コピー*/
+#context-delete,                /*削除*/
+#context-paste,                 /*ペースト*/
+#context-sep-paste,             /*ペーストの下のセパレータ*/
+
+#context-selectall,             /*全て選択*/
+#context-sep-selectall,         /*全て選択の下のセパレータ*/
+
+#context-shareselect,
+
+
+#context-openframe,                     /*フレームを新しいウィンドウで開く*/
+#context-reloadframe,                   /*フレームを更新*/
+#context-reloadframe + menuseparator,   /*フレームを更新の下のセパレータ*/
+
+#context-bookmarkframe,                 /*このフレームをブックマーク*/
+#context-saveframe,                     /*名前を付けてフレームを保存*/
+#context-saveframe + menuseparator,     /*名前を付けてフレームを保存の下のセパレータ*/
+
+#context-printframe,                    /*フレームを印刷*/
+#context-printframe + menuseparator    /*フレームを印刷の下のセパレータ*/
+
+{display: none !important;}
