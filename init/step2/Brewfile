@@ -2,17 +2,6 @@ tap "homebrew/cask"
 tap "homebrew/cask-versions"
 brew "mas"
 
-brew "coreutils"
-brew "terminal-notifier"
-brew "hub"
-brew "imagemagick"
-brew "ffmpeg"
-brew "python3"
-brew "cloc"
-brew "heroku/brew/heroku"
-brew "dnscrypt-proxy"
-brew "wine"
-brew "winetricks"
 
 # Browsers
 cask "firefox"
@@ -30,6 +19,10 @@ cask "box-drive"
 cask "mendeley"
 
 # Programming
+brew "python3"
+brew "cloc"
+brew "heroku/brew/heroku"
+brew "hub"
 cask "iterm2"
 cask "visual-studio-code"
 cask "docker"
@@ -39,10 +32,17 @@ cask "xquartz"
 cask "java"
 
 # Graphics
+brew "imagemagick"
+brew "ffmpeg"
 cask "sketch"
 cask "gimp"
 
 # Utilities
+brew "coreutils"
+brew "terminal-notifier"
+brew "wine"
+brew "winetricks"
+brew "dnscrypt-proxy"
 cask "accessmenubarapps"
 cask "bitbar"
 cask "bettertouchtool"
