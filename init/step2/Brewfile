@@ -35,10 +35,12 @@ cask "virtualbox"
 cask "licecap"
 cask "xquartz"
 cask "java"
+cask "pritunl"
 
 # Graphics
 brew "imagemagick"
 brew "ffmpeg"
+cask "skitch"
 cask "sketch"
 cask "gimp"
 
