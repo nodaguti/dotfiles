@@ -17,6 +17,11 @@ cask "slack"
 cask "dropbox"
 cask "box-drive"
 cask "mendeley"
+mas "Letterspace", id: 950145466
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Keynote", id: 409183694
+mas "Pocket", id: 568494494
 
 # Programming
 brew "python3"
@@ -59,6 +64,7 @@ cask "clipy"
 cask "grandperspective"
 cask "onyx"
 cask "the-unarchiver"
+mas "Battery Health 2", id: 1120214373
 
 # QuickLook plugins
 cask "qlimagesize"
@@ -76,13 +82,5 @@ cask "amazon-music"
 cask "bathyscaphe"
 cask "kindle"
 cask "blu-ray-player"
-
-# Applications in AppStore
 mas "LINE", id: 539883307
-mas "Battery Health 2", id: 1120214373
-mas "Letterspace", id: 950145466
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Keynote", id: 409183694
-mas "Pocket", id: 568494494
 mas "TweetDeck", id: 485812721
