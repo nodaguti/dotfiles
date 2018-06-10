@@ -16,7 +16,7 @@ fi
 ssh-keygen -t ed25519 -C "${COMMENT}" -f "${OUTPUT}"
 
 # Copy .sshconfig to ~/.ssh/config
-cp "${HOME}/workspaces/dotfiles/configs/.sshconfig" "${HOME}/.ssh/config"
+ln -s "${HOME}/workspaces/dotfiles/configs/.sshconfig" "${HOME}/.ssh/config"
 
 # Add the generated key to the ssh-agent
 eval "$(ssh-agent -s)"
