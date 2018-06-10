@@ -12,11 +12,11 @@ There will be two reboots during the execution.
 
 Unfortunately, some tasks are not automated as I've not found a way to do them with commands.
 
-* Keyboard Shortcuts
+* Run initialisation tasks in the `manual-task` folder.
+* Set up keyboard shortcuts
 * Set up applications including:
   * Firefox
     * Launch a Firefox once to initialise a profile
-    * Run `$ firefox/init.sh /path/to/profile`
     * Sign in to Firefox Sync
   * VS Code
     * Install [`settings-sync`](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
