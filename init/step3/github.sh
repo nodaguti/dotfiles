@@ -36,3 +36,5 @@ read -s -p "One-Time Password? " OTP
 echo '\n'
 
 curl -u "${USERNAME}:${PASSWORD}" -H 'Content-Type:application/json' -H "X-GitHub-OTP:${OTP}" -d "${JSON}" https://api.github.com/user/keys
+
+export GITHUB_USERNAME="${USERNAME}"
