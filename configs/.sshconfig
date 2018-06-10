@@ -1,0 +1,11 @@
+Host *
+  Port 22
+  AddKeysToAgent yes
+  UseKeychain yes
+  TCPKeepAlive yes
+  IdentityFile ~/.ssh/id_ed25519
+
+Host github
+  HostName github.com
+  User git
+  ForwardAgent yes
