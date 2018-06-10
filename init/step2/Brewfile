@@ -33,6 +33,7 @@ brew "dep"
 brew "nodenv"
 brew "nodenv/nodenv/nodenv-npm-migrate"
 brew "yarn", args: ["without-node"]
+brew "jq"
 cask "iterm2"
 cask "visual-studio-code"
 cask "docker"
