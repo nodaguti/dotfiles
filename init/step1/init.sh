@@ -2,6 +2,10 @@
 
 CURDIR="$(cd "$( dirname "$0" )" && pwd)"
 
+#################################################
+# Set up the foundation
+#################################################
+
 # source "$CURDIR/xcode.sh"
 # source "$CURDIR/homebrew.sh"
 source "$CURDIR/zsh.sh"
