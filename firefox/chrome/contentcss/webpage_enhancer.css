@@ -5,19 +5,9 @@
 ---------------------------------- */
 
 /* IMEモード変更を無効にする */
-input, textarea, select, form{
-     ime-mode: normal !important;
-}
-
-/* 新たにウィンドウを開くリンクを分かりやすく */
-a[target="_blank"]:hover,
-a[target="_new"]:hover{
-   color: #a0a0a0 !important;
-   background-color: orange !important;
-}
-
-/* 選択部分を青色にする */
-::-moz-selection{
-    color: white !important;
-    background-color: blue !important;
+input,
+textarea,
+select,
+form {
+  ime-mode: normal !important;
 }

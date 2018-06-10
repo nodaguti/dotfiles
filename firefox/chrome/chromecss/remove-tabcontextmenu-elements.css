@@ -10,7 +10,6 @@
 #context_closeTab,
 #context_tabViewMenu,
 #context_openTabInWindow,
-#context_undoCloseTab,
-[id^="multipletab-context-"],
-[id$="-tabbrowser-content"]
-{display: none !important;}
+#context_undoCloseTab {
+  display: none !important;
+}
