@@ -2,6 +2,7 @@ alias diff='diff -u'
 alias ls='ls -a --color=auto'
 alias git=hub
 alias mkdir='mkdir -p'
+alias grep='ggrep'
 
 alias sudo='sudo ' # Enable alias after `sudo`
 
