@@ -53,6 +53,7 @@ cask "gimp"
 # Utilities
 brew "coreutils"
 brew "grep"
+brew "gnu-sed"
 brew "terminal-notifier"
 brew "wine"
 brew "winetricks"

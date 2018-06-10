@@ -3,6 +3,7 @@ alias ls='ls -a --color=auto'
 alias git=hub
 alias mkdir='mkdir -p'
 alias grep='ggrep'
+alias sed='gsed'
 
 alias sudo='sudo ' # Enable alias after `sudo`
 
