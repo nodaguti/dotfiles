@@ -21,3 +21,5 @@
 	postBuffer = 524288000
 [ssh]
 	postBuffer = 524288000
+[pager]
+	branch = false
