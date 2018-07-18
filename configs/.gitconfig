@@ -16,6 +16,7 @@
 	fixup = commit -a --amend -C HEAD
 	unstage = reset HEAD
 	clear = reset --hard HEAD
+  pop = reset HEAD~
 [core]
 	excludesfile = ~/.gitignore
 [http]
