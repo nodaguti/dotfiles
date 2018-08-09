@@ -1,29 +1,29 @@
 [user]
-	name = nodaguti
-	email = nodaguti@gmail.com
+  name = nodaguti
+  email = nodaguti@gmail.com
 [color]
-	ui = true
-	autocrlf = input
+  ui = true
+  autocrlf = input
 [alias]
-	co = checkout
-	ci = commit
-	st = status
-	br = branch
-	rb = rebase
-	cp = cherry-pick
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  rb = rebase
+  cp = cherry-pick
   pl = pull
-	graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+  graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
   mst = checkout master
   dev = checkout develop
-	fixup = commit --amend -C HEAD
-	unstage = reset HEAD
-	clear = reset --hard HEAD
+  fixup = commit --amend -C HEAD
+  unstage = reset HEAD
+  clear = reset --hard HEAD
   pop = reset HEAD~
 [core]
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
 [http]
-	postBuffer = 524288000
+  postBuffer = 524288000
 [ssh]
-	postBuffer = 524288000
+  postBuffer = 524288000
 [pager]
-	branch = false
+  branch = false
