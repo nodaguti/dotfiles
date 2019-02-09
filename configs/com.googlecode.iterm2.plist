@@ -36441,17 +36441,17 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>74 302 606 456 0 0 1280 777 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
-	<string>2465 280 735 382 1920 280 1280 778 </string>
+	<string>813 253 735 382 0 0 1920 1058 </string>
 	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
-	<string>669 663 616 174 0 0 1920 1058 </string>
+	<string>677 663 616 174 0 0 1920 1058 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>670 499 620 392 0 0 1920 1058 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>883 376 606 469 0 0 1920 1058 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>749 493 796 473 0 0 1920 1058 </string>
+	<string>73 658 916 394 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>549 280 1675 778 0 0 1920 1058 </string>
+	<string>802 0 1870 1058 0 0 1920 1058 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -36499,16 +36499,12 @@
 			</dict>
 			<key>Ansi 12 Color</key>
 			<dict>
-				<key>Alpha Component</key>
-				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.97579854726791382</real>
-				<key>Color Space</key>
-				<string>Calibrated</string>
+				<real>0.93095844984054565</real>
 				<key>Green Component</key>
-				<real>0.66899967193603516</real>
+				<real>0.82760012149810791</real>
 				<key>Red Component</key>
-				<real>0.38828986883163452</real>
+				<real>0.7224687933921814</real>
 			</dict>
 			<key>Ansi 13 Color</key>
 			<dict>
@@ -36633,9 +36629,9 @@
 				<key>Blue Component</key>
 				<real>0.0</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.1491314172744751</real>
 				<key>Red Component</key>
 				<real>1</real>
 			</dict>
@@ -36682,11 +36678,11 @@
 				<key>Blue Component</key>
 				<real>1</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.91000000000000003</real>
+				<real>0.9268307089805603</real>
 				<key>Red Component</key>
-				<real>0.65000000000000002</real>
+				<real>0.70213186740875244</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -37027,13 +37023,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.67800000000000005</real>
+				<real>0.73423302173614502</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.27000000000000002</real>
+				<real>0.35916060209274292</real>
 				<key>Red Component</key>
-				<real>0.023</real>
+				<real>0.0</real>
 			</dict>
 			<key>Log Directory</key>
 			<string></string>
@@ -37048,7 +37044,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>SauceCodePowerline-Light 14</string>
+			<string>SauceCodePowerline-Regular 14</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -37215,6 +37211,8 @@
 			<false/>
 			<key>Use Italic Font</key>
 			<true/>
+			<key>Use Non-ASCII Font</key>
+			<false/>
 			<key>Vertical Spacing</key>
 			<real>1.0304054021835327</real>
 			<key>Visual Bell</key>
@@ -37299,7 +37297,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>~/workspaces/dotfiles</string>
+	<string>/Users/noguchitadahiro/workspaces/dotfiles/configs</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -37321,7 +37319,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-06-02T16:15:17Z</date>
+	<date>2018-07-11T12:50:53Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Secure Input</key>
@@ -37375,7 +37373,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.6beta5</string>
+	<string>3.2.0beta3</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
