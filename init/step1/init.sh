@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CURDIR="$(cd "$( dirname "$0" )" && pwd)"
+CURDIR=$(dirname $(readlink -f $0))
 
 #################################################
 # Set up the foundation

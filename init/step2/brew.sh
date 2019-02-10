@@ -1,5 +1,5 @@
 #!/bin/sh
 
-CURDIR="$(cd "$( dirname "$0" )" && pwd)"
+CURDIR=$(dirname $(readlink -f $0))
 
 brew bundle --file="${CURDIR}/Brewfile"
