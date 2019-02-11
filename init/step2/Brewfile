@@ -42,6 +42,7 @@ cask "licecap"
 cask "xquartz"
 cask "java"
 cask "pritunl"
+cask "android-platform-tools"
 
 # Graphics
 brew "imagemagick"
