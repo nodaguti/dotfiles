@@ -2,6 +2,8 @@
 
 CURDIR=$(dirname $(readlink -f $0))
 
+source "$CURDIR/../persist_sudo.sh"
+
 #################################################
 # Set up the foundation
 #################################################
