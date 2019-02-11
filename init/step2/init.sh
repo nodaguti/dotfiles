@@ -12,6 +12,7 @@ source "$CURDIR/brew.sh"
 source "$CURDIR/packages.sh"
 source "$CURDIR/node.sh"
 source "$CURDIR/firefox.sh"
+source "$CURDIR/zsh.sh"
 
 brew cleanup
 brew cask cleanup

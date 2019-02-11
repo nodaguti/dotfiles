@@ -10,7 +10,6 @@ source "$CURDIR/../persist_sudo.sh"
 
 # source "$CURDIR/xcode.sh"
 # source "$CURDIR/homebrew.sh"
-source "$CURDIR/zsh.sh"
 source "$CURDIR/fonts.sh"
 source "$CURDIR/configs.sh"
 
