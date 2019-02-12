@@ -32,7 +32,7 @@ brew "go"
 brew "dep"
 brew "nodenv"
 brew "nodenv/nodenv/nodenv-npm-migrate"
-brew "yarn", args: ["without-node"]
+brew "yarn", args: ["ignore-dependencies"]
 brew "jq"
 cask "iterm2"
 cask "visual-studio-code"
