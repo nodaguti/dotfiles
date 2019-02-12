@@ -15,5 +15,4 @@ source "$CURDIR/firefox.sh"
 source "$CURDIR/zsh.sh"
 
 brew cleanup
-brew cask cleanup
 sudo reboot
