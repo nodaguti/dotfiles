@@ -27,3 +27,4 @@
   postBuffer = 524288000
 [pager]
   branch = false
+  grep = false
