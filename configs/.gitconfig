@@ -10,7 +10,10 @@
   st = status
   br = branch
   rb = rebase
+  rbc = rebase --continue
+  rbs = rebase --skip
   cp = cherry-pick
+  cpc = cherry-pick --continue
   pl = pull
   pc = push origin HEAD # push current
   graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
