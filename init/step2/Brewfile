@@ -14,7 +14,6 @@ cask "vivaldi"
 # Office Utilities
 cask "mailspring"
 cask "slack"
-cask "dropbox"
 cask "box-drive"
 cask "mendeley"
 cask "1password"
