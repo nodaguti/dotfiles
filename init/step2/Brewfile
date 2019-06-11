@@ -1,5 +1,6 @@
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
+tap "ouchxp/nodenv"
 brew "mas"
 
 
@@ -32,6 +33,7 @@ brew "go"
 brew "dep"
 brew "nodenv"
 brew "nodenv/nodenv/nodenv-npm-migrate"
+brew "nodenv-nvmrc"
 brew "yarn", args: ["ignore-dependencies"]
 brew "jq"
 cask "iterm2"
