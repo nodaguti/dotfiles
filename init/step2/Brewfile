@@ -13,7 +13,7 @@ cask "safari-technology-preview"
 cask "vivaldi"
 
 # Office Utilities
-cask "mailspring"
+cask "thunderbird"
 cask "slack"
 cask "box-drive"
 cask "mendeley"
