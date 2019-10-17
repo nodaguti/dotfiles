@@ -25,7 +25,7 @@ mas "Keynote", id: 409183694
 mas "Pocket", id: 568494494
 
 # Programming
-brew "python3"
+brew "pyenv"
 brew "cloc"
 brew "heroku/brew/heroku"
 brew "hub"

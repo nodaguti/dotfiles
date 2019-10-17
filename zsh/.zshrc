@@ -60,3 +60,4 @@ if [ -f '/Users/s01079/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/s01
 if [ -f '/Users/s01079/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/s01079/google-cloud-sdk/completion.zsh.inc'; fi
 
 eval "$(nodenv init -)"
+eval "$(pyenv init -)"
