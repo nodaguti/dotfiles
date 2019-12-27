@@ -18,7 +18,7 @@ export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 # Language-specific paths
 source "$HOME/workspaces/dotfiles/zsh/go.sh"
 source "$HOME/workspaces/dotfiles/zsh/java.sh"
-
+source "$HOME/workspaces/dotfiles/zsh/python.sh"
 
 ###
 # Options
