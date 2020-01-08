@@ -44,6 +44,7 @@ cask "xquartz"
 cask "java"
 cask "pritunl"
 cask "android-platform-tools"
+mas "XCode", id: 497799835
 
 # Graphics
 brew "imagemagick"
