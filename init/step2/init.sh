@@ -14,6 +14,7 @@ source "$CURDIR/node.sh"
 source "$CURDIR/python.sh"
 source "$CURDIR/firefox.sh"
 source "$CURDIR/zsh.sh"
+source "$CURDIR/quarantine.sh"
 
 brew cleanup
 sudo reboot
