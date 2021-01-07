@@ -15,10 +15,8 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
-# Language-specific paths
-source "$HOME/workspaces/dotfiles/zsh/go.sh"
-source "$HOME/workspaces/dotfiles/zsh/java.sh"
-source "$HOME/workspaces/dotfiles/zsh/python.sh"
+# Package-specific paths
+source "$HOME/workspaces/dotfiles/zsh/paths.sh"
 
 ###
 # Options
@@ -48,16 +46,9 @@ source "$HOME/workspaces/dotfiles/zsh/autocomplete.zsh"
 source "$HOME/workspaces/dotfiles/zsh/zgen.zsh"
 source "$HOME/workspaces/dotfiles/zsh/auto_ls.zsh"
 
-
 ###
 # Scripts that have been automatically appended to .zshrc
 ###
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/s01079/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/s01079/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/s01079/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/s01079/google-cloud-sdk/completion.zsh.inc'; fi
 
 eval "$(nodenv init -)"
 eval "$(pyenv init -)"
