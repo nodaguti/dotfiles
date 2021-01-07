@@ -8,8 +8,6 @@ source "$CURDIR/../persist_sudo.sh"
 # Set up the foundation
 #################################################
 
-# source "$CURDIR/xcode.sh"
-# source "$CURDIR/homebrew.sh"
 source "$CURDIR/fonts.sh"
 source "$CURDIR/configs.sh"
 
