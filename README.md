@@ -1,5 +1,9 @@
 # dotfiles
 
+## Prerequisit
+
+- Full Xcode installation
+
 ## Installation
 
 ```sh
@@ -22,11 +26,11 @@ $ ~/workspaces/dotfiles/init/step3/init.sh
 
 Unfortunately, some tasks are not automated as I've not found a way to do them with commands.
 
-* Set up keyboard shortcuts
-* Set up applications including:
-  * Firefox
-    * Sign in to Firefox Sync
-  * VS Code
-    * Install [`settings-sync`](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-  * Karabiner-Elements
-  * Almost all other third-party applications...
+- Set up keyboard shortcuts
+- Set up applications including:
+  - Firefox
+    - Sign in to Firefox Sync
+  - VS Code
+    - Install [`settings-sync`](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+  - Karabiner-Elements
+  - Almost all other third-party applications...
