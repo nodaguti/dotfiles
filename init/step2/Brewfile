@@ -27,6 +27,7 @@ mas "Pocket", id: 568494494
 brew "pyenv"
 brew "cloc"
 brew "heroku/brew/heroku"
+brew "git"
 brew "hub"
 brew "go"
 brew "dep"

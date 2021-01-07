@@ -6,9 +6,6 @@ sudo xcodebuild -license accept
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install git
-brew install git
-
 # Create a workspace
 mkdir -p "${HOME}/workspaces"
 cd "${HOME}/workspaces"
