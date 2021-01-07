@@ -1,7 +1,7 @@
 #!/bin/sh
 
 brew install zsh zsh-completions
-sudo sh -c 'echo /usr/local/bin/zsh >> /etc/shells'
+sudo sh -c 'echo $(brew --prefix)/bin/zsh >> /etc/shells'
 chsh -s /usr/local/bin/zsh
 
 ln -s "${HOME}/workspaces/dotfiles/zsh/.zshrc" "${HOME}/.zshrc"
