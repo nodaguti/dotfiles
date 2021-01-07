@@ -34,7 +34,7 @@ brew "dep"
 brew "nodenv"
 brew "nodenv/nodenv/nodenv-npm-migrate"
 brew "ouchxp/nodenv/nodenv-nvmrc"
-brew "yarn", args: ["ignore-dependencies"]
+brew "yarn"
 brew "jq"
 cask "iterm2"
 cask "visual-studio-code"
