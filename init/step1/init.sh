@@ -9,7 +9,6 @@ source "$CURDIR/../persist_sudo.sh"
 # Set up the foundation
 #################################################
 
-source "$CURDIR/fonts.sh"
 source "$CURDIR/configs.sh"
 
 sudo reboot

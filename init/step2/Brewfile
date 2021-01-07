@@ -1,5 +1,6 @@
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
+tap "homebrew/cask-fonts"
 brew "mas"
 
 
@@ -27,6 +28,7 @@ mas "Pocket", id: 568494494
 brew "pyenv"
 brew "cloc"
 brew "heroku/brew/heroku"
+brew "svn"
 brew "git"
 brew "hub"
 brew "go"
@@ -36,6 +38,8 @@ brew "nodenv/nodenv/nodenv-npm-migrate"
 brew "ouchxp/nodenv/nodenv-nvmrc"
 brew "yarn"
 brew "jq"
+cask "font-source-code-pro-for-powerline"
+cask "font-source-han-code-jp"
 cask "iterm2"
 cask "visual-studio-code"
 cask "docker"
