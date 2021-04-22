@@ -80,6 +80,7 @@ cask "clipy"
 cask "grandperspective"
 cask "onyx"
 cask "the-unarchiver"
+cask "barrier"
 mas "Battery Health 2", id: 1120214373
 
 # QuickLook plugins
