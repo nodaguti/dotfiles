@@ -17,7 +17,7 @@ cask "thunderbird"
 cask "slack"
 cask "box-drive"
 cask "mendeley"
-cask "1password"
+cask "bitwarden"
 cask "meetingbar"
 mas "Letterspace", id: 950145466
 mas "Numbers", id: 409203825
