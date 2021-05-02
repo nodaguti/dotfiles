@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-# <bitbar.title>CPU Usage Graph</bitbar.title>
-# <bitbar.version>v1.0</bitbar.version>
-# <bitbar.author>Ganesh V</bitbar.author>
-# <bitbar.author.github>ganeshv</bitbar.author.github>
-# <bitbar.desc>CPU usage bar graph</bitbar.desc>
-# <bitbar.image>https://raw.github.com/ganeshv/mtop/master/screenshots/mtop2.png</bitbar.image>
-# <bitbar.about>https://github.com/ganeshv/mtop</bitbar.about>
+# <xbar.title>CPU Usage Graph</xbar.title>
+# <xbar.version>v1.0</xbar.version>
+# <xbar.author>Ganesh V</xbar.author>
+# <xbar.author.github>ganeshv</xbar.author.github>
+# <xbar.desc>CPU usage bar graph</xbar.desc>
+# <xbar.image>https://raw.github.com/ganeshv/mtop/master/screenshots/mtop2.png</xbar.image>
+# <xbar.about>https://github.com/ganeshv/mtop</xbar.about>
 
 # CPU utilization bar graph is rendered onto a 25x16 BMP file created from
 # scratch with no external dependencies. The dropdown contains current usage,
@@ -81,7 +81,7 @@ make_bmp_header() {
     pixoffset=$((headerbytes + 14))
     pixbytes=$((width * height * 4))
     filebytes=$((pixbytes + pixoffset))
-
+        
     # Common bits for version 1 and 5
     bmp+=(
         42 4d                   # "BM" magic
@@ -175,7 +175,7 @@ render_graph() {
     for ((i = 0; i < ${#histdata[@]}; i++)); do
         comps=(${histdata[$i]})
         heights[$i]=$(((100 - $(printf "%.0f" "${comps[2]}")) * (height - border_height) / 100))
-    done
+    done 
 
     for ((i = 0; i < $((height - border_height)); i++)); do
         h=0
@@ -206,7 +206,7 @@ echo "---"
 echo "$cpustr | refresh=true"
 echo "$loadstr | refresh=true"
 echo "---"
-top5=("${top5[@]/%/| font=Menlo color=white}")
+top5=("${top5[@]/%/| font=Menlo}")
 IFS=$'\n'
 echo "${top5[*]}"
 IFS=$OLDIFS

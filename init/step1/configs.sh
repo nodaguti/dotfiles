@@ -270,13 +270,11 @@ sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutio
 
 
 ###
-# BitBar
+# xbar
 ###
 
-# Set the plugin directory
-defaults write com.matryer.BitBar pluginsDirectory -string "${HOME}/workspaces/dotfiles/bitbar"
-defaults write com.matryer.BitBar NSNavLastRootDirectory -string "${HOME}/workspaces/dotfiles/bitbar"
-
+mkdir -p "${HOME}/Library/Application Support/xbar"
+ln -s "${HOME}/workspaces/dotfiles/xbar/plugins" "${HOME}/Library/Application Support/xbar/plugins"
 
 ###
 # iTerm2

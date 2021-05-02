@@ -1,25 +1,25 @@
 #!/bin/bash
 
-# <bitbar.title>uptime</bitbar.title>
-# <bitbar.version>v1.2</bitbar.version>
-# <bitbar.author>Matteo Ferrando</bitbar.author>
-# <bitbar.author.github>chamini2</bitbar.author.github>
-# <bitbar.desc>Show uptime command information.</bitbar.desc>
-# <bitbar.image>http://i.imgur.com/qaIxpJN.png</bitbar.image>
+# <xbar.title>uptime</xbar.title>
+# <xbar.version>v1.2</xbar.version>
+# <xbar.author>Matteo Ferrando</xbar.author>
+# <xbar.author.github>chamini2</xbar.author.github>
+# <xbar.desc>Show uptime command information.</xbar.desc>
+# <xbar.image>http://i.imgur.com/qaIxpJN.png</xbar.image>
 
 # the `sed` command removes the occasional leading whitespace
 INFO=$(uptime | sed 's/^ *//g')
 echo "$INFO" | awk -F'[ ,:\t\n]+' '
     {
-        PLURAL = 0
+        PLURAL = 1
         VERBOSE = 0
 
-        SEP = " "
+        SEP = ", "
 
-        DS = " d"
-        HS = " h"
-        MS = " m"
-        SS = " s"
+        DS = " day"
+        HS = " hr"
+        MS = " min"
+        SS = " sec"
 
         ################################
 
@@ -49,7 +49,7 @@ echo "$INFO" | awk -F'[ ,:\t\n]+' '
             M = Q
         }
 
-        MSG = "" include(D, DS, SEP, PLURAL)
+        MSG = "↑ " include(D, DS, SEP, PLURAL)
         MSG = MSG  include(H, HS, SEP, PLURAL, (D > 0 && VERBOSE))
         MSG = MSG  include(M, MS, SEP, PLURAL, (D > 0 && VERBOSE))
         MSG = MSG  include(S, SS, SEP, PLURAL)
@@ -57,7 +57,7 @@ echo "$INFO" | awk -F'[ ,:\t\n]+' '
         # remove the remaining SEP
         MSG = substr(MSG, 0, length(MSG) - length(SEP))
 
-        print MSG, " | size=12"
+        print "[", MSG, "] | size=12"
     }
 
     function include(VAL, UNIT, SUFFIX, PLURAL, VERBOSE) {
