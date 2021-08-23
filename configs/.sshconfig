@@ -9,3 +9,8 @@ Host github
   HostName github.com
   User git
   ForwardAgent yes
+
+Host *.abema.io
+  User s01079
+  IdentityFile ~/.ssh/google_compute_engine
+  StrictHostKeyChecking no
