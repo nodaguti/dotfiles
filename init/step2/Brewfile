@@ -19,6 +19,7 @@ cask "box-drive"
 cask "mendeley"
 cask "bitwarden"
 cask "meetingbar"
+cask "inkdrop"
 mas "Letterspace", id: 950145466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
