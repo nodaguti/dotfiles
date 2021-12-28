@@ -1,6 +1,9 @@
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
+tap "heroku/brew"
+tap "nodenv/nodenv"
+tap "ouchxp/nodenv"
 brew "mas"
 
 
