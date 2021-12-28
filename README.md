@@ -27,6 +27,7 @@ $ ~/workspaces/dotfiles/init/step3/init.sh
 Unfortunately, some tasks are not automated as I've not found a way to do them with commands.
 
 - Set up keyboard shortcuts
+- Install [Source Han Code JP](https://github.com/adobe-fonts/source-han-code-jp/releases/latest)
 - Set up applications including:
   - Firefox
     - Sign in to Firefox Sync
