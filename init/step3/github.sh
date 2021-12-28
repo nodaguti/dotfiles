@@ -15,26 +15,7 @@ if [ -z "$SSH_KEY_TITLE" ]; then
   SSH_KEY_TITLE=`hostname`
 fi
 
-PUBLIC_KEY=`cat ${SSH_KEY}`
-
-JSON=`jq -j '.' <<EOS
-{
-  "title": "${SSH_KEY_TITLE}",
-  "key": "${PUBLIC_KEY}"
-}
-EOS
-`
-
-echo "Path: ${SSH_KEY}"
-echo $JSON
-echo '-------------------------------'
-
-read -p "Username? " USERNAME
-read -s -p "Password? " PASSWORD
-echo ''
-read -s -p "One-Time Password? " OTP
-echo '\n'
-
-curl -u "${USERNAME}:${PASSWORD}" -H 'Content-Type:application/json' -H "X-GitHub-OTP:${OTP}" -d "${JSON}" https://api.github.com/user/keys
+gh auth login
+gh ssh-key add --title ${SSH_KEY_TITLE} ${SSH_KEY}
 
 export GITHUB_USERNAME="${USERNAME}"
