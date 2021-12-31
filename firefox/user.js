@@ -169,12 +169,6 @@ user_pref("toolkit.telemetry.rejected", true);
 user_pref("toolkit.telemetry.notifiedOptOut", 2);
 user_pref("toolkit.telemetry.prompted", 2);
 
-//全てのクッキーを不許可に
-//user_pref("network.cookie.cookieBehavior", 2);
-
-// Delete all cookies on shutdown
-user_pref("network.cookie.lifetimePolicy", 2);
-
 // Disable Geolocation API
 user_pref("geo.enabled", false);
 
@@ -183,11 +177,15 @@ user_pref("network.prefetch-next", true);
 user_pref('network.dns.disablePrefetch', false);
 
 // Tracking Protection
-user_pref("privacy.trackingprotection.ui.enabled", true);
 user_pref("privacy.trackingprotection.enabled", true);
 
 // Fingerprint Resistance
 user_pref("privacy.resistFingerprinting", true);
+
+// Cookie
+user_pref("network.cookie.lifetimePolicy", 2); // Delete all cookies on shutdown
+user_pref("network.cookie.cookieBehavior", 5); // Reject trackers and partition third-party storage
+user_pref("network.cookie.cookieBehavior.pbmode", 5); // Reject trackers and partition third-party storage
 
 // Normalise Accept Languages
 user_pref("general.useragent.locale", "en-US");
