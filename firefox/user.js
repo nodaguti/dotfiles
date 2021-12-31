@@ -1,5 +1,3 @@
-// 今度から移行しやすいようここに書くことにした。 200811021400
-
 //最後のタブを閉じてもウィンドウを閉じない
 user_pref("browser.tabs.closeWindowWithLastTab", false);
 
@@ -11,11 +9,6 @@ user_pref("browser.tabs.autoHide", false);
 
 //タブが小さくなっても閉じるボタンを消さない
 user_pref("browser.tabs.tabClipWidth", 0);
-
-//履歴の保存件数を控えめにする
-user_pref("browser.history_expire_days", 60);
-user_pref("browser.history_expire_days_min", 60);
-user_pref("browser.history_expire_sites", 5000);
 
 //ダウンロードウィンドウを表示しない
 user_pref("browser.download.manager.showWhenStarting", false);
@@ -107,18 +100,11 @@ user_pref("browser.preferences.instantApply", true);
 user_pref("browser.urlbar.autoFill", false);
 user_pref("browser.urlbar.autoFill.typed", false);
 
-//カラーマネジメント
-user_pref("gfx.color_management.mode", 2);
-user_pref("gfx.color_management.rendering_intent", 2);
-
 //英語表示にする
 user_pref("general.useragent.locale", "en-US");
 
 //フォントは日本語にする
 user_pref("font.language.group", "ja");
-
-//デフォルトの検索エンジン
-user_pref("browser.search.defaultenginename", "Bing");
 
 //アップデートの確認を5時間ごとにする
 user_pref("extensions.update.interval", 18000);
@@ -132,13 +118,9 @@ user_pref("intl.charset.default", "UTF-8");
 
 // Click to play
 user_pref("plugins.click_to_play", true);
-user_pref("plugin.state.flash", 1);
 
 // Always ignore autocomplete=off
 user_pref("signon.overrideAutocomplete", true);
-
-// Disable SSL 3.0 (for POODLE vulnerability)
-user_pref('security.tls.version.min', 1);
 
 // Disable rc4
 user_pref('security.ssl3.ecdhe_ecdsa_rc4_128_sha', false);
@@ -178,10 +160,6 @@ user_pref('ui.use_standins_for_native_colors', true);
 
 //============= Privacy =============
 
-// Enable Do-Not-Track
-user_pref("privacy.donottrackheader.enabled", true);
-user_pref("privacy.donottrackheader.value", 1);
-
 // Disable Health Report/Telemetry
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("toolkit.telemetry.rejected", true);
@@ -213,61 +191,6 @@ user_pref("general.useragent.locale", "en-US");
 user_pref("intl.accept_languages", "en-us,en");
 
 
-//===============高速化================
-
-//=====レンタリング関連====
-// すべてすでに存在しない設定項目である
-
-// //ページをレンタリングする前の待ち時間
-// user_pref("nglayout.initialpaint.delay", 0);
-
-// //content.notify.backoffcountで決めた初期量の時間の間隔？
-// user_pref("content.notify.interval", 300000);
-
-// //ページレンタリング中の基準時間の有効化？
-// user_pref("content.notify.ontimer", true);
-
-// //ページレイアウトの計算後、再描画を行う回数 -1: 制限なし
-// user_pref("content.notify.backoffcount", -1);
-
-// //マウスを動かしたりした時にパースを中断するかどうか
-// //falseだと、content.max.tokenizing.time と content.switch.threshold は意味がなくなる
-// user_pref("content.interrupt.parsing", false);
-
-// //ソフト側でイベントがループして、解析を中断させたとき、その処理までの時間（content.notify.intervalの3倍）
-// user_pref("content.max.tokenizing.time", 900000);
-
-// //ここで指定した時間、マウス又はキー操作をしないと high frequency mode から
-// // low frequency mode に切り替わる（content.notify.intervalと同期）
-// user_pref("content.switch.threshold", 300000);
-
-
-//=====パイプライン=====
-
-//パイプライン有効化
-user_pref("network.http.pipelining", true);
-user_pref("network.http.proxy.pipelining", true);
-user_pref("network.http.pipelining.ssl", true);
-user_pref("network.http.pipelining.firstrequest", true);
-user_pref("network.http.pipelining.aggressive", true);
-
-//パイプライン処理で一度にリクエストする数
-user_pref("network.http.pipelining.maxrequests", 32);
-user_pref("network.http.pipelining.max-optimistic-requests", 8);
-
-//最大接続数
-user_pref("network.http.max-connections", 256);
-user_pref("network.http.max-connections-per-server", 64);
-user_pref("network.http.max-persistent-connections-per-proxy", 32);
-user_pref("network.http.max-persistent-connections-per-server", 6);
-
-// 最大コネクション数を超えてるときにリクエストを待つ秒数(Default: 10)
-user_pref("network.http.request.max-start-delay", 5);
-
-//サイトの自動更新を無効化
-user_pref("accessibility.blockautorefresh", false);
-
-
 //=====その他=====
 
 // Skip delays in submenus
@@ -282,9 +205,6 @@ user_pref("plugin.expose_full_path", true);
 
 // Hide image placeholders
 user_pref("browser.display.show_image_placeholders", false);
-
-// Enable SPDY
-user_pref('network.http.spdy.enabled', true);
 
 // Plugin Async Init
 user_pref("dom.ipc.plugins.asyncInit", true);
