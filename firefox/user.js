@@ -113,6 +113,9 @@ user_pref("app.update.interval", 18000);
 //デフォルトエンコーディングをunicodeにする
 user_pref("intl.charset.default", "UTF-8");
 
+// userChrome.css, userContent.css を有効にする
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+
 
 //=============Security===============
 
