@@ -33,14 +33,14 @@ export BULLETTRAIN_PROMPT_ORDER=(
   status
   context
   dir
-  git
   custom
   cmd_exec_time
 )
 export BULLETTRAIN_EXEC_TIME_SHOW=true
 export BULLETTRAIN_STATUS_EXIT_SHOW=true
-export BULLETTRAIN_GIT_COLORIZE_DIRTY=true
-export BULLETTRAIN_CUSTOM_MSG='$(echo $NODE_ENV)'
+export BULLETTRAIN_CUSTOM_MSG='$(if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then; echo " $(git branch --show-current)"; fi)'
+export BULLETTRAIN_CUSTOM_BG=${BULLETTRAIN_GIT_BG}
+export BULLETTRAIN_CUSTOM_FG=${BULLETTRAIN_GIT_FG}
 export ZSH_THEME="bullet-train"
 
 # enable auto update
