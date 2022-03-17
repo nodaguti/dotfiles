@@ -23,6 +23,12 @@ cask "mendeley"
 cask "bitwarden"
 cask "meetingbar"
 cask "inkdrop"
+cask "licecap"
+cask "pritunl"
+cask "expressvpn"
+cask "miro"
+cask "figma"
+cask "gather"
 mas "Letterspace", id: 950145466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
@@ -45,16 +51,16 @@ brew "nodenv/nodenv/nodenv-npm-migrate"
 brew "ouchxp/nodenv/nodenv-nvmrc"
 brew "yarn"
 brew "jq"
+brew "helm"
 cask "font-source-code-pro-for-powerline"
 cask "iterm2"
 cask "visual-studio-code"
 cask "docker"
 cask "virtualbox"
-cask "licecap"
 cask "xquartz"
 cask "java"
-cask "pritunl"
 cask "android-platform-tools"
+cask "db-browser-for-sqlite"
 mas "XCode", id: 497799835
 
 # Graphics
