@@ -61,7 +61,6 @@ mas "XCode", id: 497799835
 brew "imagemagick"
 brew "ffmpeg"
 cask "skitch"
-cask "sketch"
 cask "gimp"
 
 # Utilities
@@ -85,7 +84,6 @@ cask "clipy"
 cask "grandperspective"
 cask "onyx"
 cask "the-unarchiver"
-cask "barrier"
 mas "Battery Health 2", id: 1120214373
 
 # QuickLook plugins
