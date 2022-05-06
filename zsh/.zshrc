@@ -25,6 +25,7 @@ setopt print_eight_bit # Enable multi-byte character drawing
 
 # Resource Limit
 ulimit -n 4096
+export NODE_OPTIONS="--max-old-space-size=4096"
 
 # Disable key delays
 KEYTIMEOUT=0
