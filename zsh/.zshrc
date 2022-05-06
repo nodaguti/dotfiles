@@ -47,3 +47,4 @@ source "$HOME/workspaces/dotfiles/zsh/auto_ls.zsh"
 
 eval "$(nodenv init -)"
 eval "$(pyenv init -)"
+eval "$(direnv hook zsh -)"
