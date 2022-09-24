@@ -41,11 +41,11 @@ source "$HOME/workspaces/dotfiles/zsh/history.zsh"
 source "$HOME/workspaces/dotfiles/zsh/autocomplete.zsh"
 source "$HOME/workspaces/dotfiles/zsh/zgen.zsh"
 source "$HOME/workspaces/dotfiles/zsh/auto_ls.zsh"
+source "$HOME/workspaces/dotfiles/zsh/node.zsh"
 
 ###
 # Scripts that have been automatically appended to .zshrc
 ###
 
-eval "$(nodenv init -)"
 eval "$(pyenv init -)"
 eval "$(direnv hook zsh -)"
