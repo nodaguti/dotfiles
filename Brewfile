@@ -37,6 +37,7 @@ mas "Pocket", id: 568494494
 
 # Programming
 brew "pyenv"
+brew "tfenv"
 brew "cloc"
 brew "heroku/brew/heroku"
 brew "svn"
