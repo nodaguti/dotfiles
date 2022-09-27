@@ -2,6 +2,7 @@ alias diff='diff -u'
 alias ls='ls -a --color=auto'
 alias git=hub
 alias g=hub
+alias k=kubectl
 alias mkdir='mkdir -p'
 alias grep='ggrep'
 alias sed='gsed'
