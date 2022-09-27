@@ -61,6 +61,7 @@ cask "xquartz"
 cask "java"
 cask "android-platform-tools"
 cask "db-browser-for-sqlite"
+cask "proxyman"
 mas "XCode", id: 497799835
 
 # Graphics
