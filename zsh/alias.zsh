@@ -1,16 +1,20 @@
+# Enhancements
 alias diff='diff -u'
 alias ls='ls -a --color=auto'
 alias git=hub
-alias g=hub
-alias k=kubectl
 alias mkdir='mkdir -p'
 alias grep='ggrep'
 alias sed='gsed'
 
-alias sudo='sudo ' # Enable alias after `sudo`
+# One-charactor abbreviations
+alias g=hub
+alias k=kubectl
+alias y=yarn
+alias n=node
+alias b=brew
 
-alias -s js=node
-alias -s py=python3
+# Enable alias after `sudo`
+alias sudo='sudo '
 
 function extract() {
   case $1 in
