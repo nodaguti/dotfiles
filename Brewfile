@@ -95,13 +95,8 @@ cask "the-unarchiver"
 mas "Battery Health 2", id: 1120214373
 
 # QuickLook plugins
-cask "qlimagesize"
-cask "emin-webpquicklook"
-cask "quicklook-csv"
-cask "quicklook-json"
+cask "qlvideo"
 cask "qlstephen"
-cask "qlcolorcode"
-cask "qlmarkdown"
 cask "betterzip"
 
 # Entertainment
