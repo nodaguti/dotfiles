@@ -34,7 +34,6 @@ mas "Keynote", id: 409183694
 mas "Pocket", id: 568494494
 
 # Programming
-brew "nvm"
 brew "pyenv"
 brew "tfenv"
 brew "cloc"
