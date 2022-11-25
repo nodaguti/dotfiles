@@ -2,8 +2,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 tap "heroku/brew"
-tap "nodenv/nodenv"
-tap "ouchxp/nodenv"
+tap "bufbuild/buf"
 brew "mas"
 
 
@@ -35,6 +34,7 @@ mas "Keynote", id: 409183694
 mas "Pocket", id: 568494494
 
 # Programming
+brew "nvm"
 brew "pyenv"
 brew "tfenv"
 brew "cloc"
