@@ -23,7 +23,6 @@ cask "mendeley"
 cask "bitwarden"
 cask "meetingbar"
 cask "inkdrop"
-cask "licecap"
 cask "pritunl"
 cask "expressvpn"
 cask "miro"
@@ -57,7 +56,6 @@ cask "iterm2"
 cask "visual-studio-code"
 cask "docker"
 cask "virtualbox"
-cask "xquartz"
 cask "java"
 cask "android-platform-tools"
 cask "db-browser-for-sqlite"
@@ -67,7 +65,6 @@ mas "XCode", id: 497799835
 # Graphics
 brew "imagemagick"
 brew "ffmpeg"
-cask "skitch"
 cask "gimp"
 
 # Utilities
@@ -83,16 +80,11 @@ brew "tldr"
 brew "tree"
 brew "ifstat"
 brew "direnv"
-cask "accessmenubarapps"
 cask "xbar"
-cask "bettertouchtool"
 cask "karabiner-elements"
 cask "yujitach-menumeters"
 cask "clipy"
-cask "grandperspective"
-cask "onyx"
 cask "the-unarchiver"
-mas "Battery Health 2", id: 1120214373
 
 # QuickLook plugins
 cask "qlvideo"
@@ -102,8 +94,8 @@ cask "betterzip"
 # Entertainment
 cask "vlc"
 cask "amazon-music"
+cask "spotify"
 cask "bathyscaphe"
 cask "kindle"
 cask "blu-ray-player"
 mas "LINE", id: 539883307
-mas "TweetDeck", id: 485812721
