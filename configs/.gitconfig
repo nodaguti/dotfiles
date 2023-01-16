@@ -17,7 +17,8 @@
   pl = pull
   pc = push origin HEAD # push current
   graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
-  sd = !git switch $(basename $(git symbolic-ref --short refs/remotes/origin/HEAD)) # switch to default
+  m = !git switch $(basename $(git symbolic-ref --short refs/remotes/origin/HEAD)) # main
+  main = !git switch $(basename $(git symbolic-ref --short refs/remotes/origin/HEAD))
   fu = commit --amend -C HEAD # fixup
   cl = reset --hard HEAD # clear
   pop = reset HEAD~
