@@ -5,6 +5,7 @@
   ui = true
   autocrlf = input
 [alias]
+  s = switch
   co = checkout
   ci = commit
   st = status
