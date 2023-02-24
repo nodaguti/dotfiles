@@ -49,3 +49,7 @@ source "$HOME/workspaces/dotfiles/zsh/node.zsh"
 
 eval "$(pyenv init -)"
 eval "$(direnv hook zsh -)"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/s01079/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
