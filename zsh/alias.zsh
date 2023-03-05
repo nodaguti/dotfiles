@@ -12,6 +12,7 @@ alias k=kubectl
 alias y=yarn
 alias n=node
 alias b=brew
+alias p=pnpm
 
 # Enable alias after `sudo`
 alias sudo='sudo '
