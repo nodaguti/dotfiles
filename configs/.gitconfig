@@ -38,5 +38,8 @@
 	defaultBranch = main
 [fetch]
   prune = true
-[blame]
-  ignoreRevsFile = .git-blame-ignore-revs
+
+# GitLens will stop working on repositories without a .git-blame-ignore-revs file
+# https://github.com/gitkraken/vscode-gitlens/issues/1143#issuecomment-758947995
+# [blame]
+#   ignoreRevsFile = .git-blame-ignore-revs
