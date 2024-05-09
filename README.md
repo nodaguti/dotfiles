@@ -16,12 +16,6 @@ There will be two reboots during the installation. After the first reboot, run
 $ ~/workspaces/dotfiles/init/step2/init.sh
 ```
 
-After the second reboot, run
-
-```sh
-$ ~/workspaces/dotfiles/init/step3/init.sh
-```
-
 ## Manual post-process tasks
 
 Unfortunately, some tasks are not automated as I've not found a way to do them with commands.
