@@ -40,7 +40,6 @@ source "$HOME/workspaces/dotfiles/zsh/colouring.zsh"
 source "$HOME/workspaces/dotfiles/zsh/history.zsh"
 source "$HOME/workspaces/dotfiles/zsh/autocomplete.zsh"
 source "$HOME/workspaces/dotfiles/zsh/zgen.zsh"
-source "$HOME/workspaces/dotfiles/zsh/auto_ls.zsh"
 source "$HOME/workspaces/dotfiles/zsh/node.zsh"
 
 ###
