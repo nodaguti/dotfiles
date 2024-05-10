@@ -1,13 +1,12 @@
 # Enhancements
 alias diff='diff -u'
 alias ls='ls -a --color=auto'
-alias git=hub
 alias mkdir='mkdir -p'
 alias grep='ggrep'
 alias sed='gsed'
 
 # One-charactor abbreviations
-alias g=hub
+alias g=git
 alias k=kubectl
 alias y=yarn
 alias n=node
