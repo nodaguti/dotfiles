@@ -69,6 +69,7 @@ cask "gimp"
 
 # Utilities
 brew "coreutils"
+brew "moreutils"
 brew "grep"
 brew "gnu-sed"
 brew "the_silver_searcher"
