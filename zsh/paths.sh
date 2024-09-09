@@ -3,9 +3,9 @@ export PATH="$(brew --prefix)/opt/coreutils/libexec/gnubin:$PATH"
 export MANPATH="$(brew --prefix)/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # Java
-export JAVA_HOME="/opt/homebrew/opt/openjdk/bin"
+export JAVA_HOME="$(brew --prefix)/opt/openjdk/bin"
 export PATH="${JAVA_HOME}:$PATH"
-export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+export CPPFLAGS="-I$(brew --prefix)/opt/openjdk/include"
 
 # Python
 export PATH="${HOME}/.poetry/bin:${PATH}"
