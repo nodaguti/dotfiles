@@ -5,9 +5,7 @@ brew "mas"
 
 # Browsers
 cask "firefox"
-cask "firefox-nightly"
 cask "google-chrome"
-cask "google-chrome-canary"
 cask "safari-technology-preview"
 cask "vivaldi"
 
