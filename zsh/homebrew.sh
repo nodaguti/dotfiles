@@ -4,4 +4,6 @@ else
   eval $(brew shellenv)
 fi
 
-brew autoupdate start --upgrade --cleanup
+if [ type brew &>/dev/null ]; then
+  brew autoupdate start --upgrade --cleanup
+fi
