@@ -53,6 +53,9 @@ brew "jq"
 brew "helm"
 brew "wrk"
 brew "bufbuild/buf/buf"
+brew "actionlint"
+brew "shellcheck"
+brew "mkcert"
 cask "font-source-code-pro-for-powerline"
 cask "iterm2"
 cask "visual-studio-code"
@@ -61,11 +64,13 @@ cask "java"
 cask "android-platform-tools"
 cask "db-browser-for-sqlite"
 cask "proxyman"
+cask "docker-desktop"
 mas "XCode", id: 497799835
 
-# Graphics
+# Media
 brew "imagemagick"
 brew "ffmpeg"
+brew "svgo"
 cask "gimp"
 
 # Utilities
@@ -82,11 +87,13 @@ brew "tldr"
 brew "tree"
 brew "ifstat"
 brew "direnv"
+brew "noti"
 cask "xbar"
 cask "karabiner-elements"
 cask "yujitach-menumeters"
 cask "clipy"
 cask "the-unarchiver"
+cask "grandperspective"
 
 # QuickLook plugins
 cask "qlvideo"
@@ -100,4 +107,5 @@ cask "spotify"
 cask "bathyscaphe"
 cask "kindle"
 cask "blu-ray-player"
+cask "discord"
 mas "LINE", id: 539883307
