@@ -3,3 +3,5 @@ if [ -d '/opt/homebrew/bin' ]; then
 else
   eval $(brew shellenv)
 fi
+
+brew autoupdate start --upgrade --cleanup

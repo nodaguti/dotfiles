@@ -10,7 +10,6 @@ export LC_ALL=ja_JP.UTF-8
 ###
 # PATH
 ###
-source "$HOME/workspaces/dotfiles/zsh/homebrew.sh"
 source "$HOME/workspaces/dotfiles/zsh/paths.sh"
 
 ###
@@ -35,6 +34,7 @@ KEYTIMEOUT=0
 # Features
 ###
 
+source "$HOME/workspaces/dotfiles/zsh/homebrew.sh"
 source "$HOME/workspaces/dotfiles/zsh/alias.zsh"
 source "$HOME/workspaces/dotfiles/zsh/colouring.zsh"
 source "$HOME/workspaces/dotfiles/zsh/history.zsh"
