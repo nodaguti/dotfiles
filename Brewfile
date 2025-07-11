@@ -6,7 +6,6 @@ tap "heroku/brew"
 tap "bufbuild/buf"
 brew "mas"
 
-
 # Browsers
 cask "firefox"
 cask "firefox-nightly"
@@ -15,31 +14,11 @@ cask "google-chrome-canary"
 cask "safari-technology-preview"
 cask "vivaldi"
 
-# Office Utilities
-cask "thunderbird"
-cask "slack"
-cask "box-drive"
-cask "mendeley"
-cask "bitwarden"
-cask "meetingbar"
-cask "inkdrop"
-cask "pritunl"
-cask "expressvpn"
-cask "miro"
-cask "figma"
-cask "gather"
-mas "Letterspace", id: 950145466
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Keynote", id: 409183694
-mas "Pocket", id: 568494494
-
 # Programming
 brew "pyenv"
 brew "tfenv"
 brew "cloc"
 brew "heroku/brew/heroku"
-brew "svn"
 brew "git"
 brew "gh"
 brew "go"
@@ -56,6 +35,7 @@ brew "bufbuild/buf/buf"
 brew "actionlint"
 brew "shellcheck"
 brew "mkcert"
+cask "figma"
 cask "font-source-code-pro-for-powerline"
 cask "iterm2"
 cask "visual-studio-code"
@@ -88,12 +68,19 @@ brew "tree"
 brew "ifstat"
 brew "direnv"
 brew "noti"
+cask "box-drive"
+cask "bitwarden"
+cask "meetingbar"
+cask "protonvpn"
 cask "xbar"
 cask "karabiner-elements"
-cask "yujitach-menumeters"
 cask "clipy"
 cask "the-unarchiver"
 cask "grandperspective"
+mas "Letterspace", id: 950145466
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Keynote", id: 409183694
 
 # QuickLook plugins
 cask "qlvideo"
@@ -107,5 +94,8 @@ cask "spotify"
 cask "bathyscaphe"
 cask "kindle"
 cask "blu-ray-player"
+
+# Communication
+cask "slack"
 cask "discord"
 mas "LINE", id: 539883307
