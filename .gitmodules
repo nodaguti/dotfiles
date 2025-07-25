@@ -1,0 +1,3 @@
+[submodule "configs/terminal/monokai-pro"]
+	path = configs/terminal/monokai-pro
+	url = https://github.com/TigerC10/monokai-pro.terminal.git
