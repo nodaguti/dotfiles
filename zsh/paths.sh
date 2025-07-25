@@ -18,6 +18,6 @@ if [ ! -e $GOPATH ]; then
 fi
 
 # mise
-if [ type mise &>/dev/null ]; then
+if type mise &> /dev/null; then
   eval "$(mise activate zsh)"
 fi
