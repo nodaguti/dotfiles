@@ -16,3 +16,8 @@ export PATH=$PATH:$GOPATH/bin
 if [ ! -e $GOPATH ]; then
   mkdir -p $GOPATH
 fi
+
+# mise
+if [ type mise &>/dev/null ]; then
+  eval "$(mise activate zsh)"
+fi
