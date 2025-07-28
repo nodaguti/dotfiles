@@ -4,3 +4,7 @@ golangci-lint = "latest"
 node = "22.17.1"
 "npm:@anthropic-ai/claude-code" = "latest"
 "npm:ccmanager" = "latest"
+"npm:svgo" = "latest"
+
+[settings]
+idiomatic_version_file_enable_tools = ["node"]

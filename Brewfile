@@ -39,7 +39,6 @@ cask "docker-desktop"
 # Media
 brew "imagemagick"
 brew "ffmpeg"
-brew "svgo"
 cask "gimp"
 
 # Utilities
