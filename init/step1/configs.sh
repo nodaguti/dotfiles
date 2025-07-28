@@ -4,10 +4,11 @@
 # Link config files
 ###
 
+mkdir -p "$HOME/.config"
 ln -s "$HOME/workspaces/dotfiles/configs/.editorconfig" "$HOME/.editorconfig"
 ln -s "$HOME/workspaces/dotfiles/configs/.gitconfig" "$HOME/.gitconfig"
 ln -s "$HOME/workspaces/dotfiles/configs/.gitignore" "$HOME/.gitignore"
-
+mkdir -p "$HOME/.config/mise" && ln -s "$HOME/workspaces/dotfiles/configs/mise-config.toml" "$HOME/.config/mise/config.toml"
 
 ###
 # General UI/UX
