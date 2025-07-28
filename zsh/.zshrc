@@ -46,5 +46,4 @@ source "$HOME/workspaces/dotfiles/zsh/node.zsh"
 # Scripts that have been automatically appended to .zshrc
 ###
 
-eval "$(pyenv init -)"
 eval "$(direnv hook zsh -)"
