@@ -11,7 +11,6 @@ source "$CURDIR/../persist_sudo.sh"
 
 source "$CURDIR/brew.sh"
 source "$CURDIR/node.sh"
-source "$CURDIR/python.sh"
 source "$CURDIR/firefox.sh"
 source "$CURDIR/zsh.sh"
 source "$CURDIR/quarantine.sh"

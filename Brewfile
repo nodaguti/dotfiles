@@ -10,8 +10,6 @@ cask "safari-technology-preview"
 cask "vivaldi"
 
 # Programming
-brew "pyenv"
-brew "tfenv"
 brew "cloc"
 brew "heroku/brew/heroku"
 brew "git"
