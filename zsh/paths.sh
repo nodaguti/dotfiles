@@ -7,9 +7,6 @@ export JAVA_HOME="$(brew --prefix)/opt/openjdk/bin"
 export PATH="${JAVA_HOME}:$PATH"
 export CPPFLAGS="-I$(brew --prefix)/opt/openjdk/include"
 
-# Python
-export PATH="${HOME}/.poetry/bin:${PATH}"
-
 # Go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
