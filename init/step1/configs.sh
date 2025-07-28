@@ -9,6 +9,7 @@ ln -s "$HOME/workspaces/dotfiles/configs/.editorconfig" "$HOME/.editorconfig"
 ln -s "$HOME/workspaces/dotfiles/configs/.gitconfig" "$HOME/.gitconfig"
 ln -s "$HOME/workspaces/dotfiles/configs/.gitignore" "$HOME/.gitignore"
 mkdir -p "$HOME/.config/mise" && ln -s "$HOME/workspaces/dotfiles/configs/mise-config.toml" "$HOME/.config/mise/config.toml"
+ln -s "$HOME/workspaces/dotfiles/configs/karabiner" "$HOME/.config/karabiner"
 
 ###
 # General UI/UX
