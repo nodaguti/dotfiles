@@ -16,16 +16,9 @@ There will be two reboots during the installation. After the first reboot, run
 $ ~/workspaces/dotfiles/init/step2/init.sh
 ```
 
-## Manual post-process tasks
+## Manual setup
 
-Unfortunately, some tasks are not automated as I've not found a way to do them with commands.
-
-- Set up keyboard shortcuts
+- Keyboard shortcuts
 - Install [Source Han Code JP](https://github.com/adobe-fonts/source-han-code-jp/releases/latest)
-- Set up applications including:
-  - Firefox
-    - Sign in to Firefox Sync
-  - VS Code
-    - Install [`settings-sync`](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-  - Karabiner-Elements
-  - Almost all other third-party applications...
+- Firefox: Firefox Sync
+- VS Code: GitHub Signup
