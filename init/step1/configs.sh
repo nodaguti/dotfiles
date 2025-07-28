@@ -66,8 +66,8 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # Dock
 ###
 
-# Show the Dock in left
-defaults write com.apple.dock orientation -string "left"
+# Show the Dock in right
+defaults write com.apple.dock orientation -string "right"
 
 # Wipe all app icons from the Dock
 defaults write com.apple.dock persistent-apps -array
