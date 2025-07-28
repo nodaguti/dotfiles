@@ -7,4 +7,6 @@ esac
 
 # deno
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
-. "${HOME}/.deno/env"
+if [ -e "${HOME}/.deno" ]; then
+  . "${HOME}/.deno/env"
+fi
