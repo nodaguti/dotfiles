@@ -7,7 +7,6 @@
 ln -s "$HOME/workspaces/dotfiles/configs/.editorconfig" "$HOME/.editorconfig"
 ln -s "$HOME/workspaces/dotfiles/configs/.gitconfig" "$HOME/.gitconfig"
 ln -s "$HOME/workspaces/dotfiles/configs/.gitignore" "$HOME/.gitignore"
-sudo ln -s "$HOME/workspaces/dotfiles/configs/dnscrypt-proxy.toml" /usr/local/etc/dnscrypt-proxy.toml
 
 
 ###
