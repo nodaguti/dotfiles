@@ -276,10 +276,3 @@ sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutio
 
 mkdir -p "${HOME}/Library/Application Support/xbar"
 ln -s "${HOME}/workspaces/dotfiles/xbar/plugins" "${HOME}/Library/Application Support/xbar/plugins"
-
-###
-# iTerm2
-###
-
-# Set the preference directory
-defaults write com.googlecode.iterm2 PrefsCustomFolder -string "${HOME}/workspaces/dotfiles/configs"
