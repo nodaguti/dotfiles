@@ -6,12 +6,6 @@ export LC_CTYPE=utf-8
 export LANG=ja_JP.UTF-8
 export LC_ALL=ja_JP.UTF-8
 
-
-###
-# PATH
-###
-source "$HOME/workspaces/dotfiles/zsh/paths.sh"
-
 ###
 # Options
 ###
@@ -33,8 +27,8 @@ KEYTIMEOUT=0
 ###
 # Features
 ###
-
 source "$HOME/workspaces/dotfiles/zsh/homebrew.sh"
+source "$HOME/workspaces/dotfiles/zsh/paths.sh"
 source "$HOME/workspaces/dotfiles/zsh/alias.zsh"
 source "$HOME/workspaces/dotfiles/zsh/colouring.zsh"
 source "$HOME/workspaces/dotfiles/zsh/history.zsh"
