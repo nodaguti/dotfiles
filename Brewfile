@@ -75,10 +75,8 @@ cask "betterzip"
 
 # Entertainment
 cask "vlc"
-cask "amazon-music"
 cask "spotify"
 cask "bathyscaphe"
-cask "kindle"
 cask "blu-ray-player"
 
 # Communication
