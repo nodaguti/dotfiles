@@ -21,7 +21,6 @@
   main = !git switch $(basename $(git symbolic-ref --short refs/remotes/origin/HEAD))
   fu = commit --amend -C HEAD # fixup
   fua = commit --amend -a -C HEAD # fixup all
-  fup = !git diff --name-only | xargs -I {} sh -c 'git add {} && git commit --fixup=$(git log -n 1 --pretty=format:%H -- {})' # fixup previous
   cl = reset --hard HEAD # clear
   pop = reset HEAD~
 [core]
