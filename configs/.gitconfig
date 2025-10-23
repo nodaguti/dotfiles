@@ -23,6 +23,7 @@
   fua = commit --amend -a -C HEAD # fixup all
   cl = reset --hard HEAD # clear
   pop = reset HEAD~
+  vm = "!f () { git branch --merged | egrep -v '\\*|develop|main|master' | xargs git branch -d; git fetch --prune; };f"
 [core]
   excludesfile = ~/.gitignore
 [http]
