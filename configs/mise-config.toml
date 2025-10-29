@@ -1,5 +1,5 @@
 [tools]
-go = "latest"
+go = "1.25.0"
 golangci-lint = "latest"
 node = "22.17.1"
 "npm:@anthropic-ai/claude-code" = "latest"
