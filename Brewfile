@@ -35,6 +35,7 @@ cask "android-platform-tools"
 cask "db-browser-for-sqlite"
 cask "proxyman"
 cask "docker-desktop"
+cask "claude-code"
 
 # Media
 brew "imagemagick"
