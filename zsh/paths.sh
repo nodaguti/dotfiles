@@ -18,3 +18,7 @@ fi
 if type mise &> /dev/null; then
   eval "$(mise activate zsh)"
 fi
+
+# Rancher Desktop
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="${HOME}/.rd/bin:$PATH"
