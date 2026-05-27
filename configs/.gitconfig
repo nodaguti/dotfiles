@@ -44,3 +44,9 @@
 # https://github.com/gitkraken/vscode-gitlens/issues/1143#issuecomment-758947995
 # [blame]
 #   ignoreRevsFile = .git-blame-ignore-revs
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
