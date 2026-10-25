@@ -1,7 +1,0 @@
-@charset 'utf-8';
-@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
-
-/* Hide horizontal tabs at the top of the window */
-#tabbrowser-tabs {
-  visibility: collapse !important;
-}
