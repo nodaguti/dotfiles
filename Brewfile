@@ -1,31 +1,30 @@
 tap "homebrew/autoupdate"
-tap "heroku/brew"
-tap "bufbuild/buf"
 brew "mas"
 
 # Browsers
 cask "firefox"
 cask "google-chrome"
 cask "safari-technology-preview"
-cask "vivaldi"
+
+# AI
+cask "claude-code"
+cask "chatgpt"
 
 # Programming
 brew "cloc"
-brew "heroku/brew/heroku"
 brew "git"
 brew "gh"
-brew "falco"
 brew "lua"
 brew "yarn"
 brew "pnpm"
 brew "jq"
 brew "helm"
 brew "wrk"
-brew "bufbuild/buf/buf"
 brew "actionlint"
 brew "shellcheck"
 brew "mkcert"
 brew "awscli"
+brew "colima"
 cask "gcloud-cli"
 cask "figma"
 cask "font-source-code-pro-for-powerline"
@@ -34,8 +33,6 @@ cask "virtualbox"
 cask "android-platform-tools"
 cask "db-browser-for-sqlite"
 cask "proxyman"
-cask "rancher"
-cask "claude-code"
 
 # Media
 brew "imagemagick"
@@ -70,8 +67,6 @@ mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
 
 # QuickLook plugins
-cask "qlvideo"
-cask "qlstephen"
 cask "betterzip"
 
 # Entertainment
